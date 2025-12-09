@@ -87,7 +87,7 @@ export default function AnalyticsPage() {
                         <ResponsiveContainer width="100%" height="100%">
                             <PieChart>
                                 <Pie
-                                    data={moodData}
+                                    data={moodData as any[]}
                                     cx="50%"
                                     cy="50%"
                                     innerRadius={60}
