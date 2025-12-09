@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm Eggshell Background */
+  --background: #FEF9E7;
+  /* Soft Stone text */
+  --foreground: #292524;
+
+  /* Bright Yellow Accents */
+  --primary: #FACC15;
+  --primary-foreground: #1C1917;
+
+  --card: #FFFFFF;
+  --card-foreground: #292524;
+
+  --muted: #F5F5F4;
+  --muted-foreground: #78716C;
+
+  --border: #E7E5E4;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Utilities for the theme */
+@utility bg-eggshell {
+  background-color: #FEF9E7;
+}
+
+@utility text-eggshell-dark {
+  color: #292524;
+}
