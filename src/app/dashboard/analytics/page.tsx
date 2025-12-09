@@ -8,6 +8,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend, BarChart, Ba
 interface MoodStat {
     name: string;
     value: number;
+    [key: string]: any;
 }
 
 export default function AnalyticsPage() {
